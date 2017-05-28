@@ -2,6 +2,7 @@
 library(ggplot2)
 library(ggmap)
 library(rjson)
+library(httr)
 
 # capturing data from json feed and converting to data frame
 url <- 'https://feeds.citibikenyc.com/stations/stations.json'
